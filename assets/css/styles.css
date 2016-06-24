@@ -1,3 +1,41 @@
 body {
     padding: 20px
 }
+
+div#main>div{
+    display: inline-block;
+}
+.table>tbody>tr>td,th{
+    text-align: center;
+}
+div>form{
+    margin-left: 16px;
+}
+
+.header-section{
+    min-width: 560px;
+    display: inline-block;
+}
+
+.search-div{
+    width: 200px;
+    margin: 0;
+    float: left;
+}
+
+.add-new-div{
+    width: 265px;
+    margin: 0;
+    float: right;
+}
+
+.add-new-input{
+    width: 200px;
+    margin: 0;
+}
+
+.add-button{
+    float: right;
+    position: relative;
+    bottom: 43px;
+}
